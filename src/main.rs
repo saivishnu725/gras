@@ -7,6 +7,7 @@ struct Cli{
 }
 
 fn main() {
-    println!("Hello world!");
     let args = Cli::from_args();
+    let content = std::fs::read_to_string(&args.path).expect("File not found..");
+    println!("{}",content);
 }
