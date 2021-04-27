@@ -10,4 +10,16 @@ fn main() {
     let args = Cli::from_args();
     let content = std::fs::read_to_string(&args.path).expect("File not found..");
     println!("{}",content);
+    println!("`");
+    println!("`");
+    println!("`");
+    println!("`");
+    println!("`");
+    println!("`");
+    for line in content.lines() {
+        if line.contains(&args.pattern) {
+            println!("{}",line);
+            println!("............");
+        }
+    }
 }

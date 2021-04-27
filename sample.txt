@@ -1,1 +1,2 @@
-This is a temporary file used to display and play around with it's content(this very line as well, the irony of this line explaining it's use lol).
+It is a temporary file used to display and play around with its content.
+The irony of the lines explaining their use.
